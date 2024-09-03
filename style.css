@@ -1,0 +1,25 @@
+img{
+
+}
+body{
+    background-color: rgb(218, 183, 251) ;
+    background-image: url("https://www.shutterstock.com/image-illustration/black-hole-void-shiny-stars-260nw-1984796402.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+    background-blend-mode:hard-light;
+
+
+
+
+
+}  
+div{
+
+}
+.header{
+    padding: 60px;
+    text-align: center;
+    background: #030303;
+    font-size: 30px;
+    border: 10px solid rgb(3, 3, 3);
+}
