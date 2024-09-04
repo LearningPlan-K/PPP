@@ -45,25 +45,44 @@ div{
     filter:blur(17px);
     opacity: 1;
 }
-section{
+section{/*column*/
     padding-top: 25px;
-    display: flex;
+    display: flex; 
     flex-direction: column;
+    /* flex-direction: row; */
     /* flex-wrap: wrap; */
     /* justify-content: center; */
     align-items: center;
+    /* justify-items: center; */
     gap: 25px;
 }
+
 .card{
+    margin-top: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #030303;
-    width: 250px;
+    width: 220px;
     border-radius: 10px;
-    
-
+    box-shadow: 0 0 20px 0px;
 }
+ /* .card{
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+     flex-direction: row; 
+    justify-items: center;
+    justify-content: center;
+    background-color: #030303;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px;
+    text-align:end;
+    text-wrap:balance;
+}  */
 /* #card2::after{
      content: "";
     position: absolute;
