@@ -1,17 +1,17 @@
 img{
-    justify-content:left;
+    justify-content:end;
 
 
 }
 body{
    
     background-color: rgb(218, 183, 251) ;
-    background-image: linear-gradient(black, rgb(238, 163, 255), rgb(103, 34, 253)), url("https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0NDQzMTczNTQyNTY5NDc3/eclipse.jpg");
+    background-image: url("https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0NDQzMTczNTQyNTY5NDc3/eclipse.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-blend-mode:hard-light;
-    z-index: 1;
-
+    /* z-index: 1; */
+/* linear-gradient(black, rgb(238, 163, 255), rgb(103, 34, 253)),  */
 
 }  
 div{
@@ -22,6 +22,7 @@ div{
     margin: 0px;
     /* text-align: center; */
     background:#030303;
+    border-radius: 10px;
     font-size: 30px;
     /* border: 5px solid rgb(0, 0, 0); */
 }
@@ -35,10 +36,12 @@ div{
     left: 50%;
     translate: -50% -50%;
     z-index: -1;
-    padding: 7px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    filter:blur(17px);
 
 }
 .header::before{
-    filter: blur(1.5rem);
+    filter:blur(17px);
+    opacity: 1;
 }
