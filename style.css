@@ -71,21 +71,19 @@ section{/*column*/
     border-radius: 10px;
     box-shadow: 0 0 20px 0px blueviolet;
 }
- /* .card{
+ .cardP{
     margin-top: 5px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-     flex-direction: row; 
+    padding: 10px;  
     justify-items: center;
     justify-content: center;
     background-color: #030303;
-    height: 220px;
+    height: auto;
+    width: auto;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0px;
+    box-shadow: 0 0 20px 0px  blueviolet;
     text-align:end;
     text-wrap:balance;
-}  */
+} 
 /* #card2::after{
      content: "";
     position: absolute;
@@ -117,7 +115,6 @@ footer {
     border-color: #030303;
 }
 footer img{
-    
     width: 30px;
     padding: 10px;
 }
