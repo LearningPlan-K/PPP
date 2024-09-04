@@ -4,6 +4,7 @@ img{
 
 }
 body{
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     background-color: rgb(218, 183, 251) ;
     background-image: url("https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0NDQzMTczNTQyNTY5NDc3/eclipse.jpg");
@@ -46,7 +47,7 @@ div{
     opacity: 1;
 }
 section{/*column*/
-    padding-top: 25px;
+    padding-top: 35px;
     display: flex; 
     flex-direction: column;
     /* flex-direction: row; */
@@ -59,14 +60,15 @@ section{/*column*/
 
 .card{
     margin-top: 5px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #030303;
-    width: 220px;
+    width: auto;
+    height:auto;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0px;
+    box-shadow: 0 0 20px 0px blueviolet;
 }
  /* .card{
     margin-top: 5px;
@@ -99,5 +101,5 @@ section{/*column*/
 
 } */
 .container{
-
+    
 }
