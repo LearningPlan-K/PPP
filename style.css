@@ -1,7 +1,4 @@
-html{
-}
-img{
-}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     color: white;
@@ -86,6 +83,8 @@ body{
     background-image: conic-gradient(purple,blue,red);
     padding-bottom: 3px;
     border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
 }
 
 .header .nav-item:hover a{
@@ -138,6 +137,13 @@ section{/*column*/
     border-radius: 10px;
     box-shadow: 0 0 20px 0px blueviolet;
 }
+.card:hover{
+    background-image: conic-gradient(purple,blue,red);
+    padding-bottom: 3px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
+}
  .cardP{
     margin-top: 5px;
     padding: 10px;  
@@ -151,36 +157,12 @@ section{/*column*/
     text-align:end;
     text-wrap:balance;
 } 
- .cardP{
-    margin-top: 5px;
-    padding: 10px;  
-    justify-items: center;
-    justify-content: center;
-    background-color: #030303;
-    height: auto;
-    width: auto;
+.cardP:hover{
+    background-image: conic-gradient(purple,blue,red);
+    padding-bottom: 3px;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0px  blueviolet;
-    text-align:end;
-    text-wrap:balance;
-} 
-/* #card2::after{
-     content: "";
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    background-image: linear-gradient(rgb(199, 169, 199), rgb(189, 189, 225), rgb(238, 223, 223));
-    top:50%;
-    left: 50%;
-    translate: -50% -50%;
-    z-index: -1;
-    padding: 5px;
-    border-radius: 15px;
-    filter:blur(17px);
-
-} */
-.container{
-    
+    border-color: aliceblue;
+    border-style: solid;
 }
 footer {
     display: flex;
@@ -194,7 +176,19 @@ footer {
     border-style: solid;
     border-color: #030303;
 }
-footer img{
+footer a img{
     width: 30px;
     padding: 10px;
 }
+footer a img{
+    color: none;
+    padding: 10px 15px;
+}
+footer a img:hover {
+    background-image: conic-gradient(purple,blue,red);
+    padding-bottom: 3px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
