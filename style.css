@@ -1,8 +1,6 @@
 html{
-    font-size: 110%;
 }
 img{
-    justify-content:end;
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -12,10 +10,41 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-blend-mode:hard-light;
+    
     /* z-index: 1; */
 /* linear-gradient(black, rgb(238, 163, 255), rgb(103, 34, 253)),  */
 
-}  
+} 
+.bioPage p{
+    text-align: center;
+    font-stretch: extra-condensed;
+} 
+.bioPage h1{
+    text-decoration-line: underline;
+
+}
+.bioPage article{
+    width: 50%;
+    height: 25%;
+}
+.bioPage{
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.homePage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolioPage{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.portfolioPage aside{
+    width: 15%;
+}
+
 
 .header{
 
@@ -24,15 +53,19 @@ body{
     text-align: center;
     background:#030303;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 24px;
+    
     
 }
 .header  .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: center;
     
+}
+.navbar img{
+    padding-left: 10px;
 }
 .header .nav-links{
     display: flex;
@@ -41,6 +74,8 @@ body{
     gap: 25px;
     padding-right: 10px;
     list-style: none;
+    padding-bottom: 3px;
+
     
 }
 .header .nav-item a{
@@ -50,6 +85,7 @@ body{
 .nav-item:hover {
     background-image: conic-gradient(purple,blue,red);
     padding-bottom: 3px;
+    border-radius: 10px;
 }
 
 .header .nav-item:hover a{
@@ -61,16 +97,16 @@ body{
 .header::after, .header::before{
     content: "";
     position: absolute;
-    height: 25%;
+    height: 15%;
     width: 100%;
     background-image: conic-gradient(purple, blue, red);
-    top: 11%;
+    top: 10%;
     left: 50%;
     translate: -50% -50%;
     z-index: -1;
     padding: 5px;
     border-radius: 15px;
-    filter:blur(17px);
+    filter:blur(10px);
 
 }
 .header::before{
@@ -102,6 +138,19 @@ section{/*column*/
     border-radius: 10px;
     box-shadow: 0 0 20px 0px blueviolet;
 }
+ .cardP{
+    margin-top: 5px;
+    padding: 10px;  
+    justify-items: center;
+    justify-content: center;
+    background-color: #030303;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px  blueviolet;
+    text-align:end;
+    text-wrap:balance;
+} 
  .cardP{
     margin-top: 5px;
     padding: 10px;  
