@@ -13,12 +13,6 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-blend-mode:hard-light;
-    /* background-blend-mode:multiply; */
-    /* background-blend-mode:color-burn; */
-    /* background-blend-mode:luminosity; */
-    
-    /* z-index: 1; */
-/* linear-gradient(black, rgb(238, 163, 255), rgb(103, 34, 253)),  */
 
 } 
 .bioPage p{
@@ -44,14 +38,11 @@ body{
 }
 .portfolioPage{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 .portfolioPage aside{
     width: 15%;
 }
-
-
 .header{
 
     padding: 0px;
@@ -59,16 +50,14 @@ body{
     text-align: center;
     background:#030303;
     border-radius: 10px;
-    font-size: 24px;
-    
-    
-    
+    font-size: 24px; 
 }
 .header  .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* font-weight: bolder; */
     
 }
 .navbar img{
@@ -81,15 +70,13 @@ body{
     gap: 25px;
     padding-right: 10px;
     list-style: none;
-    padding-bottom: 3px;
-
-    
+    padding-bottom: 3px;  
 }
 .header .nav-item a{
     color: none;
     padding: 10px 15px;
     text-decoration: none;
-
+   
 }
 .nav-item:hover {
     background-image: conic-gradient(purple,blue,red);
@@ -124,15 +111,12 @@ body{
     filter:blur(17px);
     opacity: 1;
 }
-section{/*column*/
+section{
     padding-top: 35px;
     padding-bottom: 35px;
     display: flex; 
-    /* flex-direction: column; */
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
     justify-items: center;
     gap: 25px;
 }
@@ -172,14 +156,11 @@ section{/*column*/
 .expPage{
     display: flex;
     flex-direction: column;
-    /* align-content: center; */
     
 }
 .mainExp{
     display: flex;
-    /* flex-flow: row; */
     align-items: center;
-    /* justify-content:space-between; */
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -189,7 +170,6 @@ section{/*column*/
 .mainExp aside h1 b{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35pt;
-    /* text-wrap: wrap; */
     line-height: 40pt;
     text-align: center;
     
@@ -232,8 +212,6 @@ section{/*column*/
 footer {
     display: flex;
     flex-direction:row;
-    /* align-content:center; */
-    /* justify-content: center; */
     justify-content:center;
     justify-items: center;
     padding-top: 10px;
