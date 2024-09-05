@@ -169,6 +169,38 @@ section{/*column*/
     text-align:end;
     text-wrap:balance;
 } 
+.expPage{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.expPage .cardE{
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #030303;
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px  blueviolet;
+    text-align:end;
+    text-wrap:balance;
+}
+.expPage .cardE .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardE:hover{
+    background-image: conic-gradient(purple,blue,red);
+
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
+}
 .cardP:hover{
     background-image: conic-gradient(purple,blue,red);
     padding-bottom: 3px;
