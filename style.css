@@ -1,3 +1,9 @@
+.logo:hover{
+        background-image: black;
+        padding-bottom: 3px;
+        border-radius: 10px;
+        
+}
 
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -7,6 +13,9 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-blend-mode:hard-light;
+    /* background-blend-mode:multiply; */
+    /* background-blend-mode:color-burn; */
+    /* background-blend-mode:luminosity; */
     
     /* z-index: 1; */
 /* linear-gradient(black, rgb(238, 163, 255), rgb(103, 34, 253)),  */
@@ -53,6 +62,7 @@ body{
     font-size: 24px;
     
     
+    
 }
 .header  .navbar{
     display: flex;
@@ -78,6 +88,8 @@ body{
 .header .nav-item a{
     color: none;
     padding: 10px 15px;
+    text-decoration: none;
+
 }
 .nav-item:hover {
     background-image: conic-gradient(purple,blue,red);
