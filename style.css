@@ -196,7 +196,6 @@ section{/*column*/
 }
 .cardE:hover{
     background-image: conic-gradient(purple,blue,red);
-
     border-radius: 10px;
     border-color: aliceblue;
     border-style: solid;
