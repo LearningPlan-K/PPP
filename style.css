@@ -145,7 +145,7 @@ section{/*column*/
     align-items: center;
     background-color: #030303;
     width: auto;
-    height:auto;
+    height:fit-content;
     border-radius: 10px;
     box-shadow: 0 0 20px 0px blueviolet;
 }
@@ -172,26 +172,48 @@ section{/*column*/
 .expPage{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    /* align-content: center; */
+    
+}
+.mainExp{
+    display: flex;
+    /* flex-flow: row; */
+    align-items: center;
+    /* justify-content:space-between; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.mainExp aside{
+    width: 30%;
+}
+.mainExp aside h1 b{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35pt;
+    /* text-wrap: wrap; */
+    line-height: 40pt;
+    text-align: center;
     
 }
 .expPage .cardE{
     margin-top: 5px;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #030303;
     height: auto;
-    width: 50%;
+    width: 65%;
     border-radius: 10px;
     box-shadow: 0 0 20px 0px  blueviolet;
     text-align:end;
     text-wrap:balance;
+    
 }
 .expPage .cardE .container{
     display: flex;
     flex-direction: column;
+    text-align:left;
+    padding-left: 1.5rem;
     
 }
 .cardE:hover{
