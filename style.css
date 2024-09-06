@@ -36,6 +36,47 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.homeFocus{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-items: flex-start;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.homeFocus img{
+    
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 75px;
+    border-color: #030303;
+    border-style: solid;
+    border-width: 7px;
+    
+}
+.homeFocus header{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: first baseline;
+    justify-content: center;
+    padding-left: 50px;
+    width: 50%;
+}
+.homeFocus article{
+    width: 75%;
+    text-wrap: wrap;
+
+}
+.homeFocus article p{
+    text-shadow: 1px 1px 1px rgb(253, 119, 119);
+}
+.homeFocus article aside{
+    text-shadow: 1px 1px 1px rgb(255, 168, 96);
+}
+.homeFocus article div{
+    text-shadow: 1px 1px 1px rgb(253, 204, 119);
+    padding-top: 10px;
+}
 .portfolioPage{
     display: flex;
     justify-content: space-evenly;
@@ -153,6 +194,19 @@ section{
     text-align:end;
     text-wrap:balance;
 } 
+.homePage .card{
+    margin-top: 5px;
+    padding: 10px;  
+    justify-items: center;
+    justify-content: center;
+    background-color: #aea8a8;
+    height: auto;
+    width: auto;
+    border-radius: 25%;
+    box-shadow: 0 0 20px 0px  blueviolet;
+    text-align:end;
+    text-wrap:balance;
+}
 .expPage{
     display: flex;
     flex-direction: column;
