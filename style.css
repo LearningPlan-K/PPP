@@ -197,15 +197,29 @@ section{
 .homePage .card{
     margin-top: 5px;
     padding: 10px;  
+    display: flex;
+    flex-direction: row;
     justify-items: center;
-    justify-content: center;
-    background-color: #aea8a8;
-    height: auto;
+    justify-content: space-between;
+    background-color: #060606;
     width: auto;
-    border-radius: 25%;
+    border-bottom-right-radius: 15%;
     box-shadow: 0 0 20px 0px  blueviolet;
     text-align:end;
     text-wrap:balance;
+}
+.homePage .card div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.homePage .card:hover{
+    display: flex;
+    flex-grow: 3;
+    background-image: conic-gradient(rgb(250, 246, 250),blue,red);
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
 }
 .expPage{
     display: flex;
@@ -251,7 +265,8 @@ section{
     
 }
 .cardE:hover{
-    background-image: conic-gradient(purple,blue,red);
+    
+    background-image: conic-gradient(rgb(253, 192, 253),blue,red);
     border-radius: 10px;
     border-color: aliceblue;
     border-style: solid;
