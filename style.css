@@ -224,7 +224,7 @@ section{
     justify-content: space-between;
     background-color: #060606;
     width: auto;
-    border-bottom-right-radius: 15%;
+    border-bottom-right-radius: 75px;
     box-shadow: 0 0 20px 0px  blueviolet;
     text-align:end;
     text-wrap:balance;
